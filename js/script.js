@@ -36,7 +36,7 @@
 		}
 		$("figure").delay(2000).fadeOut(2000);
 		$("#SS").delay(2000).hide();
-		$("#SS").delay(2000).fadeIn(8000);
+		$("#SS").delay(2000).fadeIn(4000);
 	});
 
 
