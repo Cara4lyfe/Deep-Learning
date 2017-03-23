@@ -6,7 +6,8 @@
 
 
 <body>
-<div class="slideshow-container">
+<button onclick="HideShow()">Hide/Show Slide</button>
+<div class="slideshow-container" id="slide">
     <div class="mySlides fade">
         <div class="numbertext">1/14</div>
         <img src="img/Doctor-Faces.jpeg" style="width:100%">
@@ -96,7 +97,7 @@
 </div>
 <br>
 
-<div style="text-align:center">
+<div style="text-align:center" id="slidedot">
     <span class="dot" onclick="currentSlide(1)"></span>
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
