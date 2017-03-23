@@ -33,10 +33,10 @@
 
 		if($imgExt[1] === 'gif') {
 			$img.attr('src', $img.data('alt')).attr('data-alt', $imgSrc);
-		} 
+		}
 
 		// Add play class to help with the styling.
-		$this.toggleClass('play');
+		
 
 	});
 
