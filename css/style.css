@@ -19,7 +19,7 @@ html {
   *zoom: 1;
 }
 body {
-    margin: 0;
+    margin:0;
     background-image: url("http://www.thedoctorwhosite.co.uk/wp-images/tardis/overview/tardis-overview.jpg");
     background-position: center center;
     background-repeat:  no-repeat;
@@ -30,7 +30,7 @@ body {
 img {
   max-width: 100%;
   height: auto;
-  border: 5px solid #fff;
+  border: 0;
   vertical-align: top;
   -webkit-transition: opacity 350ms;
           transition: opacity 350ms;
@@ -49,65 +49,10 @@ img.bg{
     top: 0;
     left: 0;
 }
-header {
-  background-color: #254d86;
-}
-header h1,
-header a {
-  padding: 15px;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 12px;
-}
-header h1 {
-  float: left;
-  margin: 0;
-}
-header a {
-  padding-left: 20px;
-  padding-right: 20px;
-  text-decoration: none;
-  float: right;
-  background-color: #1a365e;
-}
-header a:hover {
-  background-color: #1f4272;
-}
-<<<<<<< HEAD
-=======
-
-.demo-content {
-  width: 960px;
-  height: 300px;
-  margin-top: 90px;
-  margin-right: auto;
-  margin-left: auto;
-  -webkit-transition: opacity 350ms;
-          transition: opacity 350ms;
-}
-.pace {
-  pointer-events: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-.pace-inactive {
-  display: none;
-}
-.pace .pace-progress {
-  background: #29d;
-  position: fixed;
-  z-index: 2000;
-  top: 0;
-  right: 100%;
-  width: 100%;
-  height: 2px;
-}
-.pace-running .demo-content {
-  opacity: 0.5;
-}
 /*# sourceMappingURL=style.css.map */
 .hidden {
     display: none;
+}
+#SS{
+    border:0;
 }
