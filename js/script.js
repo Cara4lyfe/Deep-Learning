@@ -24,21 +24,6 @@
 	$('figure').on('click', function() {
 
 		var $this   = $(this),
-				$index  = $this.index(),
-
-				$img    = $this.children('img'),
-				$imgSrc = $img.attr('src'),
-				$imgAlt = $img.attr('data-alt'),
-				$imgExt = $imgAlt.split('.');
-
-		if($imgExt[1] === 'gif') {
-			$img.attr('src', $img.data('alt')).attr('data-alt', $imgSrc);
-		}
-
-	});
-	$('figure').on('click', function() {
-
-		var $this   = $(this),
 			$index  = $this.index(),
 
 			$img    = $this.children('img'),
