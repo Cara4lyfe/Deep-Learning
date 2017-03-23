@@ -19,9 +19,13 @@ html {
   *zoom: 1;
 }
 body {
-  margin: 0;
-  background-color: #e6e9ed;
-  font-family: "Lato", sans-serif;
+    margin: 0;
+    background-image: url("http://www.thedoctorwhosite.co.uk/wp-images/tardis/overview/tardis-overview.jpg");
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    font-family: "Lato", sans-serif;
 }
 img {
   max-width: 100%;
