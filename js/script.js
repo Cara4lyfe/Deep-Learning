@@ -35,9 +35,22 @@
 			$img.attr('src', $img.data('alt')).attr('data-alt', $imgSrc);
 		}
 
-		// Add play class to help with the styling.
-		
-
 	});
+	$('figure').on('click', function() {
+
+		var $this   = $(this),
+			$index  = $this.index(),
+
+			$img    = $this.children('img'),
+			$imgSrc = $img.attr('src'),
+			$imgAlt = $img.attr('data-alt'),
+			$imgExt = $imgAlt.split('.');
+
+		if($imgExt[1] === 'gif') {
+			$img.attr('src', $img.data('alt')).attr('data-alt', $imgSrc);
+		}
+		$("figure").delay(2000).fadeOut("slow");
+	});
+
 
 })(jQuery);
