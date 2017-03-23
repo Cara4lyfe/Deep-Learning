@@ -49,7 +49,7 @@
 		if($imgExt[1] === 'gif') {
 			$img.attr('src', $img.data('alt')).attr('data-alt', $imgSrc);
 		}
-		$("figure").delay(2000).fadeOut("slow");
+		$("figure").delay(2000).fadeOut(2000);
 	});
 
 
