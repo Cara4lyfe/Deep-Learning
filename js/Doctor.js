@@ -38,3 +38,11 @@ function HideShow() {
 		y.style.display = 'none';
 	}
 }
+function HideVideo() {
+	var x = document.getElementById('DoctorVideo');
+	if (x.style.display === 'none') {
+		x.style.display = 'block';
+	} else {
+		x.style.display = 'none';
+	}
+}
