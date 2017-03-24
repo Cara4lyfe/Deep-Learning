@@ -34,6 +34,10 @@
 		if($imgExt[1] === 'gif') {
 			$img.attr('src', $img.data('alt')).attr('data-alt', $imgSrc);
 		}
+
+		var audio = new Audio('audio/tardis.mp3');
+		audio.play();
+
 		$("figure").delay(2000).fadeOut(2000);
 		$("#SS").delay(2000).hide();
 		$("#SS").delay(2000).fadeIn(4000);
