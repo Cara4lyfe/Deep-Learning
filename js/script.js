@@ -57,6 +57,11 @@
 								.fadeOut(1000)
 								.fadeIn(1000);
 
+		$("#alldoc").delay(11000).queue(function(next){
+			$(this).attr("class", "floating");
+			next();
+		});
+
 	});
 
 
