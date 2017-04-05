@@ -62,6 +62,11 @@
 			next();
 		});
 
+		$("#sonic").delay(11100).queue(function(next){
+			$(this).attr("class", "floating");
+			next();
+		});
+
 	});
 
 
